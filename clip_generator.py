@@ -147,6 +147,8 @@ if uploaded_file:
         _extract = False
         if st.button("🚀 Detect & Extract Clips", use_container_width=True):
             keywords = [k.strip().lower() for k in keywords_input.split(",") if k.strip()]
+            if not keywords:
+                mode = "⏱️ Auto — Even split"
             with st.spinner("🎙️ Transcribing with Whisper AI..."):
                 try:
                     import whisper
