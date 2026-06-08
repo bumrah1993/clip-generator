@@ -28,6 +28,7 @@ st.markdown("""
 <div class="header-box">
     <h1>🎬 Clip Generator</h1>
     <p>Upload a video → manually select points OR auto-detect with Whisper AI</p>
+    <p style="margin-top:1rem; font-size:1.1rem; color:#00ff88; font-family:'Space Mono',monospace; letter-spacing:2px;">Made by MOKSH SHAH</p>
 </div>
 """, unsafe_allow_html=True)
 
