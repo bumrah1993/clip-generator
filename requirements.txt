@@ -1,0 +1,5 @@
+streamlit
+openai-whisper
+static-ffmpeg
+imageio-ffmpeg
+anthropic
